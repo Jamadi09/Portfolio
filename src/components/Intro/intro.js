@@ -7,7 +7,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'
 
 const Intro = () => {
-  const PDF_FILE_URL = "http://localhost:3000/CV PDF.pdf"
+  const PDF_FILE_URL = "CV PDF.pdf"
   const downloadFileAtURL=(url)=>{
     fetch(url).then(response=>response.blob()).then(blob=>{
       const blobURL = window.URL.createObjectURL(new Blob([blob]))

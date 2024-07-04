@@ -30,14 +30,7 @@ const Skills = () => {
                 <p> Driven and experienced web designer with a passion for creating compelling and visually appealing websites. </p>
             </div>
         </div>
-        {/* /* <div className="skillBar">
-            <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
-            <div className="skillBarText">
-                <h2>APPDESIGN</h2>
-                <p>This is a demo text, your can write your own content here</p>
-            </div>
-        </div> */}
-      </div> */
+       </div>
       
     </section>
   );

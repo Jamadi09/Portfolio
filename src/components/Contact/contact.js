@@ -6,7 +6,7 @@ import FacebookIcon from '../../assets/facebook-icon.png';
 import TwitterIcon from '../../assets/twitter.png';
 import YoutubeIcon from '../../assets/youtube.png';
 import InstagramIcon from '../../assets/instagram.png';
-import GithubIcon from '../../assets/github.png'
+import GithubIcon from '../../assets/github (2).png'
 import emailjs from '@emailjs/browser';
 
 
