@@ -1,14 +1,17 @@
 import React, { useRef } from 'react';
 import './contact.css';
-import Walmart from '../../assets/walmart.png';
 import Adobe from '../../assets/adobe.png';
-import Microsoft from '../../assets/microsoft.png';
-import Facebook from '../../assets/facebook.png';
+import Innovatech from '../../assets/Innovatech.png';
 import FacebookIcon from '../../assets/facebook-icon.png';
 import TwitterIcon from '../../assets/twitter.png';
 import YoutubeIcon from '../../assets/youtube.png';
 import InstagramIcon from '../../assets/instagram.png';
+import GithubIcon from '../../assets/github.png'
 import emailjs from '@emailjs/browser';
+
+
+
+
 
 
 const Contact = () => {
@@ -38,10 +41,10 @@ const Contact = () => {
         Some of the Notable companies i have worked with includes
        </p>
        <div className="clientImgs">
-        <img src={Walmart} alt="Client" className="clientImg" />
+        <img src={Innovatech} alt="Client" className="clientImg" />
         <img src={Adobe} alt="Client" className="clientImg" />
-        <img src={Microsoft} alt="Client" className="clientImg" />
-        <img src={Facebook} alt="Client" className="clientImg" />
+        {/* <img src={Microsoft} alt="Client" className="clientImg" />
+        <img src={Facebook} alt="Client" className="clientImg" /> */}
        </div>
        </div>
        <div id="contact">
@@ -53,11 +56,12 @@ const Contact = () => {
             <textarea className='msg' name="message" rows={5} placeholder='Your Message'></textarea>
             <button type='submit' value="Send" className="submitBtn">Submit</button>
             <div className="links">
-                <img src={FacebookIcon} alt="Facebook" className="link" />
-                <img src={TwitterIcon} alt="Twitter" className="link" />
-                <img src={YoutubeIcon} alt="Youtube" className="link" />
-                <img src={InstagramIcon} alt="Instagram" className="link" />
-            </div>
+                <a href="https://www.facebook.com/Ceejay4l"><img src={FacebookIcon} alt="Facebook" className="link" /></a>
+                <a href="https://x.com/Ceejay_4l"><img src={TwitterIcon} alt="Twitter" className="link" /></a>
+                <a href="https://www.youtube.com/channel/UCBgHoBIqx5hG1rcWz2pjpwg"><img src={YoutubeIcon} alt="Youtube" className="link" /></a>
+                <a href="https://www.instagram.com/ceejay_4l/"> <img src={InstagramIcon} alt="Instagram" className="link" /></a>
+                <a href="https://github.com/Jamadi09"><img src={GithubIcon} alt="Github" className='link' /></a>
+                </div>
         </form>
        </div>
    </section>
